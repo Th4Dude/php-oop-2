@@ -2,6 +2,7 @@
 
 // Classe Prodotto
 class Prodotto {
+    
     private $nome;
     private $descrizione;
     private $prezzo;
@@ -21,4 +22,7 @@ class Prodotto {
         echo "Immagine: <img src=''" . $this->immagine . "' width='300' height='300'><br>";
         echo "<br>";
     }
+
 }
+
+
