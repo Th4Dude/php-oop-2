@@ -17,5 +17,6 @@ $prodotto3 = new Prodotto("Giocattolo per uccelli", "Giocattolo colorato per ucc
 $prodotto4 = new Prodotto("Acquario completo", "Acquario per pesci, con filtro e illuminazione LED", 99.99, "acquario_pesci.jpg");
 
 
+
 ?>
  
