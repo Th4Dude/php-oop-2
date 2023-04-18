@@ -1,5 +1,8 @@
 <?php
 
+require_once __DIR__.'/trait.php';
+require_once __DIR__.'/exception.php';
+
 // Classe Prodotto
 class Prodotto {
     
@@ -7,8 +10,13 @@ class Prodotto {
     private $descrizione;
     private $prezzo;
     private $immagine;
+
+    
     
     public function __construct($nome, $descrizione, $prezzo, $immagine) {
+        
+        
+
         $this->nome = $nome;
         $this->descrizione = $descrizione;
         $this->prezzo = $prezzo;
@@ -24,5 +32,3 @@ class Prodotto {
     }
 
 }
-
-
