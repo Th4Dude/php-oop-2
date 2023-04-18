@@ -16,6 +16,10 @@ class Prodotto {
     
     public function __construct($nome, $descrizione, $prezzo, $immagine) {
         
+        if ($prezzo < 0) {
+            throw new PrezzoNegativoException();
+        }
+        
         $this->nome = $nome;
         $this->descrizione = $descrizione;
         $this->prezzo = $prezzo;
